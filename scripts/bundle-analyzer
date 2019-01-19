@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+set -e
+
+config_file="webpack.ba.js"
+
+# build project with webpack
+webpack -p --config $config_file

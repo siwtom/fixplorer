@@ -1,0 +1,6 @@
+node_modules/
+custom_modules/react-split-pane/node_modules/
+dist/*
+package-lock.json
+.DS_Store
+*/.DS_Store

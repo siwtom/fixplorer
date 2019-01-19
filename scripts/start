@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+set -e
+
+config_file="webpack.dev.js"
+
+# clean dist
+rm -r dist/*
+
+# build project with webpack
+webpack -d --config $config_file
+
+# copy public files
+cp public/* dist
+
+# run development web server
+exec webpack-dev-server --config $config_file

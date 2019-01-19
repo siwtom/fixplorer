@@ -1,0 +1,126 @@
+body {
+	font-family: "Roboto", helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+}
+
+.Pane {
+    overflow-y: auto;
+		overflow-x: hidden;
+    flex: 0 1 auto;
+}
+
+.Resizer {
+  background: #000;
+  opacity: 0.5;
+  z-index: 3;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding; 
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+.Resizer.disabled {
+  cursor: allowed;
+}
+.Resizer.disabled:hover {
+  border-color: transparent;
+}
+
+#App {
+	height: 100vh;
+}
+
+#LeftBar {
+	width: 56px;
+	height: 100vh;
+  /* background: #373a47; */
+  background: #000;
+}
+
+/*
+#Main {
+	height: 100vh;
+}
+*/
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 10px;
+  top: 10px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #FFD574;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #000;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background:#000;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #000;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #FFD574;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.0);
+  background: rgba(0, 0, 0, 1);
+}

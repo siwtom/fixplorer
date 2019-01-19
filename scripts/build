@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+set -e
+
+config_file="webpack.prod.js"
+
+# clean dist
+rm -r dist/*
+
+# build project with webpack
+webpack -p --config $config_file
+
+# copy public files
+cp public/* dist
+
+echo "Project has been built in 'dist' directory."

@@ -1,0 +1,161 @@
+
+.divPane {
+	/* should match settings.CONTENT_WIDTH */
+	padding: 30px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.welcomeTitle {
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 38px;
+}
+
+.welcomeHeader {
+	padding-bottom: 40px;
+}
+
+.divPaneSidemenu {
+  padding: 0 1em 0; 
+}
+
+.divLogo {
+  background: #FFD574;
+  padding: 2.5em 1.5em 2.5em;
+}
+
+.divPaneList {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.divMainPaneDesc {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.divEmptyLogo {
+  height: 20px;
+  clear: both;
+}
+
+.divEmptyForm {
+  height: 20px;
+  clear: both;
+}
+
+.fieldPaneHeader {
+	padding-bottom: 12px;
+}
+
+.inputForm {
+  margin-top: 10px;
+}
+/* Button */
+.btn-go {
+  font-size: 11px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #FFD574;
+}
+
+.btn-go:hover {
+  box-shadow: 2px 2px 10px 2px #FFD574, 0 10px 10px 0 rgba(0, 0, 0, 0.103);
+}
+
+.btn-go:active {
+  background-color: #FFD574;
+  color: #000;
+}
+
+.btn-flag {
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-weight: 900;
+  background-color: #FFD574;
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.disabled {
+  opacity: 0.1;
+  color: #000;
+  background-color:  rgba(49, 40, 19, 0.493);
+}
+
+.underline {
+  border-bottom: 7px solid rgb(236, 185, 66);
+  display: inline-block;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+}
+
+.btn-flag:hover .tooltiptext {
+  visibility: visible;
+}
+
+.btn-flag .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 10%;
+  margin-left: -8px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent transparent #000 transparent;
+}
+
+.inline {
+  display: inline;
+}
+
+h1 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+h2 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+h3 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  margin: 0px;
+}
+
+p + p {
+  margin-top: 8px;
+}
+
+a {
+  color: #B94802;
+}
+
+a:hover {
+   color: rgb(247, 202, 99);
+}
+

@@ -1,0 +1,302 @@
+@import url(
+  https://fonts.googleapis.com/css?family=Roboto:400,
+  500,
+  700,
+  300,
+  100
+);
+
+.BodyTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  position: relative;
+  margin-top: 0px;
+}
+
+.BodyCompTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  position: relative;
+  margin-top: 0px;
+}
+.BodyLastCompTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  position: relative;
+}
+.HeaderTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.MsgIdtHdrContent {
+  word-wrap: break-word;
+   border-bottom: 5px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgTagHdrContent {
+  word-wrap: break-word;
+  border-top-left-radius: 5px;
+   border-bottom: 5px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgFldHdrContent {
+  word-wrap: break-word;
+   border-bottom: 5px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgRqdHdrContent {
+  text-align: center;
+  word-wrap: break-word;
+   border-bottom: 5px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgCmtHdrContent {
+  word-wrap: break-word;
+  border-top-right-radius: 5px;
+   border-bottom: 5px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgIdtContent {
+  width: 3%;
+}
+
+.MsgTagContent {
+  word-wrap: break-word;
+  /* background-color: #e8efd5;
+  border-bottom: 1px solid #98b08b; */
+  background-color: #ffd574;
+  border-bottom: 1px solid #000;
+}
+
+.MsgFldContent {
+  word-wrap: break-word;
+  border-bottom: 1px solid #000;
+}
+
+.MsgRqdContent {
+  text-align: center;
+  background-color: #ffd574;
+  border-bottom: 1px solid #000;
+}
+
+.MsgCmtContent {
+  word-wrap: break-word;
+  border-width: 0px;
+  border-bottom: 1px solid #000;
+}
+
+/* Component Fields */
+.MsgTagCompContent {
+  font-weight: bold;
+  word-wrap: break-word;
+  background: #000;
+  border-bottom: 1px solid #000;
+  color: #fff;
+}
+
+.MsgFldCompContent {
+  word-wrap: break-word;
+  font-weight: bold;
+  background: #000;
+  border-bottom: 1px solid #000;
+  color: #fff;
+}
+
+.MsgRqdCompContent {
+  text-align: center;
+  border-width: 0px;
+  background: #000;
+  border-bottom: 1px solid #000;
+  color: #fff;
+}
+
+.MsgCmtCompContent {
+  word-wrap: break-word;
+  background: #000;
+  border-bottom: 1px solid #000;
+  color: #fff;
+}
+/* Repeating Fields */
+.MsgTagReptContent {
+  font-weight: bold;
+  font-style: italic;
+  word-wrap: break-word;
+  background-color: rgba(49, 40, 19, 0.493);
+  border-bottom: 1px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgFldReptContent {
+  word-wrap: break-word;
+  font-weight: bold;
+  background-color: rgba(49, 40, 19, 0.493);
+  border-bottom: 1px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgRqdReptContent {
+  text-align: center;
+  background-color: rgba(49, 40, 19, 0.493);
+  border-bottom: 1px solid rgba(49, 40, 19, 0.493);
+}
+
+.MsgCmtReptContent {
+  word-wrap: break-word;
+  background-color: rgba(49, 40, 19, 0.493);
+  border-bottom: 1px solid rgba(49, 40, 19, 0.493);
+}
+
+/* FieldsPane Table */
+table.FieldsContent {
+  table-layout: auto;
+  position: relative;
+}
+.MsgValueHdrContent {
+  text-align: center;
+  border-top-left-radius: 3px;
+}
+
+.MsgDesHdrContent {
+  padding-left: 8px;
+  border-top-right-radius: 3px;
+}
+
+.MsgValueContent {
+  text-align: center;
+  background-color: #ffd574;
+  color: #000000;
+}
+
+.MsgDesContent {
+  padding: 8px;
+  background: rgba(49, 40, 19, 0.075);
+}
+
+/* List Table*/
+table.ListContent {
+  table-layout: auto;
+  position: relative;
+}
+
+table.ListContent tr:nth-child(odd) td {
+  background: rgba(238, 186, 66, 0.507);
+}
+
+table.ListContent tr:nth-child(even) td {
+  background: rgba(238, 186, 66, 0.123);
+}
+
+.ListNameHdrContent {
+  border-top-left-radius: 3px;
+  background: #000;
+  border-bottom: 4px solid rgba(236, 185, 66, 0.404);
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 5px 20px 5px 20px;
+}
+
+.ListDescHdrContent {
+  border-top-right-radius: 3px;
+  background: #000;
+  border-bottom: 4px solid rgba(236, 185, 66, 0.404);
+  padding: 5px 0px 5px 12px;
+}
+
+.ListCodeHdrContent {
+  background: #000;
+  border-bottom: 4px solid rgba(236, 185, 66, 0.404);
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+}
+
+.ListNameContent {
+  /* font-style: italic; */
+  text-decoration: underline;
+  padding: 5px 20px 5px 20px;
+}
+
+.ListDescContent {
+  padding: 12px;
+}
+
+.ListCodeContent {
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+}
+
+th {
+  color: #d5dde5;
+  background: #000;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  font-size: 16px;
+  font-weight: normal;
+  display: table-cell;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  margin: 0px;
+}
+.TreeTableHover:hover td {
+  background: #242117;
+  color: #ffffff;
+  border-bottom: 1px solid #000;
+}
+
+
+label {
+	text-align: left;
+	font-size: 14px;
+}
+
+/* Side menu */
+table.sidemenu {
+  table-layout: auto;
+  width: 100%;
+}
+.row-label {
+  width: 35%;
+  text-align: left;
+}
+.row-input {
+  width: 50%;
+}
+.row-button {
+  width: 5%;
+}
+.sidemenu {
+}
+.sidemenu-link {
+  text-align: center;
+  border-top: 2px solid #ffd574;
+  /* background-color: rgba(181, 175, 188, 0.15); */
+}
+
+.sidemenu-td {
+  font-size: 16px;
+  padding: 4px;
+}
+
+.sidemenu-link:hover {
+  background-color: #ffd574;
+  color: #000;
+}
+
+.contentTable {
+	width: 100%;
+}
+
+.content-td {
+	padding: 12px;
+}
+
+table.contentTable tr:nth-child(odd) td {
+  background: rgba(238, 186, 66, 0.507);
+}
+
+table.contentTable tr:nth-child(even) td {
+  background: rgba(238, 186, 66, 0.123);
+}
