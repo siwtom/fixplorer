@@ -4,8 +4,11 @@ set -e
 
 config_file="webpack.dev.js"
 
-# clean dist
-rm -r dist/*
+# create dist if it doesn't exist
+mkdir -p dist
+
+# try to clean dist
+rm -rf dist/*
 
 # build project with webpack
 webpack -d --config $config_file
